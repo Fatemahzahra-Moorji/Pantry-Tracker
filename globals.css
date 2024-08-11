@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes backgroundAnimation {
+  0% {background-color: #f7f7f7; }
+  50% {background-color: #e3f2fd;}
+  100% {background-color: #f7f7f7;}
+}
+
+.animated-background {
+  animation: backgroundAnimation 10s ease-in-out infinite;
+}
+
